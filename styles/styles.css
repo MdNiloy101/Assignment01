@@ -7,7 +7,6 @@
 
     font-weight: 400;
     font-size: 20px;
-    text-align: center;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -135,4 +134,55 @@ nav .logo {
     text-align: center;
     align-items: center;
     gap: 158px;
+}
+
+/* user say  */
+.users-say {
+    margin: 137px 149px;
+}
+
+.users-say-heading {
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #1e1e1e;
+}
+
+.img-title {
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #757575;
+}
+
+.img-sub-title {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #b3b3b3;
+}
+
+.Reviewer-container {
+    display: flex;
+    gap: 6px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+
+    border: 1px solid #f2eded;
+    border-radius: 14px;
+    padding: 24px;
+    width: 366px;
+    height: 243px;
+    min-width: 240px;
+
 }
