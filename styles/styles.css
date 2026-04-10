@@ -3,6 +3,10 @@
     color: #4E47FF;
 }
 
+body {
+    background: #f5f8ff;
+}
+
 .description {
 
     font-weight: 400;
@@ -184,5 +188,93 @@ nav .logo {
     width: 366px;
     height: 243px;
     min-width: 240px;
+    background-color: #ffffff;
 
+}
+
+/* touch design  */
+.touch {
+    margin: 92px 150px 14px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 71px;
+}
+
+.touch-title {
+
+    font-weight: 700;
+    font-size: 97px;
+    line-height: 120%;
+    color: #000;
+}
+
+/* input[type='email']  */
+
+.re-input {
+    display: block;
+    width: 100%;
+    border: 1px solid #d6dded;
+    /* border: none; */
+    outline: none;
+    /* background: #fff; */
+    border-radius: 10px;
+    padding: 20px 32px;
+    /* width: 497px; */
+    height: 20px;
+
+
+}
+
+textarea {
+    width: 100%;
+    /* padding: 20px 40px 35px 12px; */
+    border: 1px solid #d6dded;
+    border-radius: 10px;
+    padding: 20px 32px;
+    width: 497px;
+    height: 135px;
+}
+
+form .btn {
+    width: 100%;
+}
+
+.footer {
+    margin: 104px 455px 135px 455px;
+}
+
+.footer-title {
+
+    font-weight: 900;
+    font-size: 100px;
+
+
+}
+
+.footer-subtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #8987a1;
+}
+
+.footer-link ul {
+    display: flex;
+    gap: 48px;
+}
+
+.footer-link ul li {
+    list-style: none;
+
+}
+
+.footer-link ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #8987a1;
 }
