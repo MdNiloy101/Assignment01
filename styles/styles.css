@@ -192,6 +192,44 @@ nav .logo {
 
 }
 
+/* focus style  */
+.focus {
+    margin: 137px 150px 92px 137px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.focus-heading {
+
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000;
+}
+
+.focus-subtitle {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.focus .btn {
+    width: 195px
+}
+
+.focus-img img {
+
+    border-radius: 48px;
+    width: 840px;
+    height: 364px;
+    /* width: 100%; */
+
+
+}
+
 /* touch design  */
 .touch {
     margin: 92px 150px 14px 150px;
